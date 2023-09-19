@@ -1,0 +1,117 @@
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: black;
+    width: 240px;
+}
+.sidebar button{
+    background-color: rgba(255, 0, 0, 0);
+    border: none;
+    transition: background-color 200ms;
+}
+.sidebar button:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+#top-section{
+    display: flex;
+    align-items: center;
+    height: 64px;
+    padding-left: 12px;
+}
+.ham-button{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    transition: background-color 200ms;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#middle-section{
+    margin-top: 8px;
+}
+#middle-section button{
+    margin: 0px 4px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    width: 230px;
+    height: 48px;
+    border-radius: 10px;
+}
+#middle-section button p{
+    margin-left:20px;
+    font-size: 16px;
+    color: white;
+}
+.svg-icon{
+    fill: white;
+    height: 24px;
+    width: 24px;
+}
+#line{
+    width: 192px;
+    margin: 24px 16px;
+    background-color:rgba(255,255,255,0.15);
+    height: 1px;
+}
+#bottom-section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    transition: background-color 200ms;
+    padding: 0 4px;
+}
+#bottom-section div:hover{
+    background-color:rgba(255, 255, 255, 0.2);
+}
+.plus-icon{
+    margin-right: 10px;
+}
+.playlist-container{
+    width: 198px;
+    height: 48px;
+    padding: 4px 16px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: normal;
+    flex-direction: column;
+}
+.new-playlist{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 36px;
+    width: 200px;
+    cursor: pointer;
+    border-radius: 18px;
+    background-color: rgba(255, 255, 255, 0.119);
+    font-size: 14px;
+    font-weight: 500;
+    transition: background-color 200ms;
+    margin-bottom:16px
+}
+.new-playlist:hover{
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.first-line{
+    font-size: 14px;
+    margin: 0 0 2px 0;
+    line-height: 18px;
+}
+.second-line{
+    display: flex;
+    align-items: center;
+}
+.second-line-text{
+    display: inline-block;
+    margin: 0;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.7);
+}
