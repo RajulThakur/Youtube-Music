@@ -1,0 +1,62 @@
+.top-bar{
+    position: fixed;
+    background-color: black;
+    top: 0;
+    right: 0;
+    left: 240px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search-bar{
+    display: flex;
+    flex: 1;
+    margin-left: 170px;
+    max-width: 422px;
+    min-width: 50px;
+}
+.search-button{
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    height: 42px;
+    width: 50px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-right: none;
+}
+.search-box{
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-left: none;
+    padding: 0 0 0 5px;
+    background: transparent;
+    color: rgba(255, 255, 255, 0.9);
+    display: flex;
+    flex: 1;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.search-box:focus{
+    outline: none;
+}
+.profile{
+    display: flex;
+    width: 80px;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 70px;
+}
+.chromecast-button{
+    background-color: transparent;
+    border: none;
+}
+.profile-picture{
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+    cursor: pointer;
+}

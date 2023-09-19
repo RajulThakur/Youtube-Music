@@ -1,4 +1,8 @@
 body{
     font-family: 'Roboto', sans-serif;
     color: white;
+    margin: 0;
+}
+button{
+    cursor: pointer;
 }
