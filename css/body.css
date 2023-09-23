@@ -2,6 +2,7 @@ body{
     font-family: 'Roboto', sans-serif;
     color: white;
     margin: 0;
+    background-color: rgb(27, 27, 27);
 }
 button{
     cursor: pointer;
