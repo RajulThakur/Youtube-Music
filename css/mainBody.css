@@ -2,6 +2,10 @@
     display: flex;
     align-items: center;
     padding-top: 132px;
+    padding-left: 340px;
+    justify-content: flex-start;
+    flex: 1;
+    overflow-x: hidden;
 }
 .mood-button{
     background-color: rgba(153, 153, 153, 0.489);
@@ -13,6 +17,7 @@
     font-weight: 300;
     padding: 9px 12px;
     border-radius: 8px;
+
 }
 .heading{
     display: flex;
@@ -54,6 +59,11 @@
     border-radius: 50%;
     border: 1px solid rgba(153, 153, 153, 0.489);
     background-color: rgb(0, 0, 0);
+}
+.row-container{
+    flex:1;
+    margin-left: 340px;
+    margin-right: 100px;
 }
 .left,.right{
     height: 12px;
