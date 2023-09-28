@@ -1,0 +1,30 @@
+.grid-container{
+    display:grid;
+    grid-template-columns: 350px 350px 350px 350px 350px;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+.song-grid-container{
+    display: grid;
+    grid-template-columns: 65px 1fr;
+}
+.grid-thumbnail{
+    display: flex;
+    align-items: center;
+    height: 55px;
+    width: 55px;
+    object-fit: cover;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.grid-image-thumbnail{
+    width: 100%;
+}
+.grid-info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.info{
+    color: rgb(179, 179, 179);
+}

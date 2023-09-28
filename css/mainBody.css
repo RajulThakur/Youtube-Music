@@ -1,8 +1,11 @@
+#content{
+    margin-top: 132px;
+    margin-left: 340px;
+    margin-right: 50px;
+}
 .mood-button-bar{
     display: flex;
     align-items: center;
-    padding-top: 132px;
-    padding-left: 340px;
     justify-content: flex-start;
     flex: 1;
     overflow-x: hidden;
@@ -62,8 +65,6 @@
 }
 .row-container{
     flex:1;
-    margin-left: 340px;
-    margin-right: 100px;
 }
 .left,.right{
     height: 12px;
