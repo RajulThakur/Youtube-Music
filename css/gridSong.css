@@ -3,6 +3,7 @@
     grid-template-columns: 350px 350px 350px 350px 350px;
     row-gap: 10px;
     column-gap: 10px;
+    margin-bottom: 56px;
 }
 .song-grid-container{
     display: grid;

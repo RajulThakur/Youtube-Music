@@ -5,6 +5,7 @@
     bottom: 0;
     background-color: black;
     width: 240px;
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
 }
 .sidebar button{
     background-color: rgba(255, 0, 0, 0);
@@ -20,6 +21,7 @@
     align-items: center;
     height: 64px;
     padding-left: 12px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 .ham-button{
     height: 40px;

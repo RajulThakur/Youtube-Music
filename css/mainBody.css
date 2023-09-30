@@ -38,7 +38,7 @@
 .userName{
     font-weight: 400;
     color: #aaa;
-    font-size: 15px;
+    font-size: 14px;
 
 }
 .title{
@@ -65,6 +65,7 @@
 }
 .row-container{
     flex:1;
+    margin-bottom: 56px;
 }
 .left,.right{
     height: 12px;
