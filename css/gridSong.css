@@ -20,6 +20,7 @@
 }
 .grid-image-thumbnail{
     width: 100%;
+    border-radius: 4%;
 }
 .grid-info{
     display: flex;
