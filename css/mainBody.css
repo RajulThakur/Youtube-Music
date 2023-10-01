@@ -110,7 +110,29 @@
     cursor: pointer;
     text-decoration-line: underline;
 }
+.song-thumbnail-container{
+    position: relative;
+}
 .song-thumbnail{
     height: 150px;
     border-radius: 3px;
+}
+.hover-play-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 36px;
+    width: 36px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.519);
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    transition: scale  200ms ,background-color 200ms;
+    opacity: 1;
+}
+.hover-play-button:hover{
+    background-color: black;
+    scale: 1.3;
 }
