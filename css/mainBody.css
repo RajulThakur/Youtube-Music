@@ -112,12 +112,22 @@
 }
 .song-thumbnail-container{
     position: relative;
+    transition: opacity 200ms;
+}
+.song-thumbnail-container:hover button{
+    opacity: 1;
+}
+.shadow{
+    width: 100%;
+}
+.shadow:hover{
+    box-shadow: 0px 5px 40px 3px grey inset;
 }
 .song-thumbnail{
     height: 150px;
     border-radius: 3px;
-}
-.hover-play-button{
+}   
+.hover-button{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -125,12 +135,23 @@
     width: 36px;
     border: none;
     border-radius: 50%;
-    background-color: rgba(0, 0, 0, 0.519);
     position: absolute;
+    opacity: 0;
+}
+.hover-three-dot-button{
+    top: 5px;
+    right: 5px;
+    background-color: transparent;
+    transition:background-color 200ms;
+}
+.hover-three-dot-button:hover{
+    background-color: rgba(255, 255, 255, 0.263);
+}
+.hover-play-button{
+    background-color: rgba(0, 0, 0, 0.519);
     bottom: 20px;
     right: 20px;
     transition: scale  200ms ,background-color 200ms;
-    opacity: 1;
 }
 .hover-play-button:hover{
     background-color: black;
