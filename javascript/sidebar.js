@@ -62,3 +62,6 @@ function hamclick(){
         hambuttonclick=true;
     }
 }
+document.querySelector('.js-upgrade-button').addEventListener('click',()=>{
+    window.location.href="upgrade.html";
+})

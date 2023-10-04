@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="wclassth=device-wclassth, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Robonto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
     <link rel="icon" href="images/icon/icons8-youtube-music-144.png">
     <title>YouTube Music</title>
     <link rel="stylesheet" href="css/sidebar.css">
@@ -13,12 +13,13 @@
     <link rel="stylesheet" href="css/topBar.css">
     <link rel="stylesheet" href="css/mainBody.css">
     <link rel="stylesheet" href="css/gridSong.css">
+    <link rel="stylesheet" href="css/upgrade.css">
 
 </head>
 <body>
     <div class="top-bar">
         <div class="left-section">
-            <button class="ham-button js-ham-button"><svg class="svg-icon ham-button-svg" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false"><g><path d="M21,6H3V5h18V6z M21,11H3v1h18V11z M21,17H3v1h18V17z"></path></g></svg></button>
+            <button class="ham-button js-ham-button"><svg class="svg-icon ham-button-svg" viewBox="0 0 24 24" preserveAspectRatio="xMclassYMclass meet" focusable="false"><g><path d="M21,6H3V5h18V6z M21,11H3v1h18V11z M21,17H3v1h18V17z"></path></g></svg></button>
             <img class="yt-music-logo" src="images/icon/on_platform_logo_dark.svg">
         </div>
         <div class="search-bar">
@@ -26,65 +27,78 @@
             <input class="search-box" type="text" placeholder="Search songs, albums, artists, podcasts">
         </div>
         <div class="profile">
-            <button class="chromecast-button"><svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="svg-icon"><g class="svg-icon"><path d="M22,20h-8v-1h7V5H3v3H2V4h20V20z M2,17.32V20h2.73C4.73,18.52,3.51,17.32,2,17.32z M2,13.75v1.79c2.51,0,4.55,2,4.55,4.46 h1.82C8.36,16.55,5.52,13.75,2,13.75z M2,10.18v1.79c4.52,0,8.18,3.6,8.18,8.03H12C12,14.57,7.52,10.18,2,10.18z" class="svg-icon"></path></g></svg>
+            <button class="chromecast-button"><svg viewBox="0 0 24 24" preserveAspectRatio="xMclassYMclass meet" focusable="false" class="svg-icon"><g class="svg-icon"><path d="M22,20h-8v-1h7V5H3v3H2V4h20V20z M2,17.32V20h2.73C4.73,18.52,3.51,17.32,2,17.32z M2,13.75v1.79c2.51,0,4.55,2,4.55,4.46 h1.82C8.36,16.55,5.52,13.75,2,13.75z M2,10.18v1.79c4.52,0,8.18,3.6,8.18,8.03H12C12,14.57,7.52,10.18,2,10.18z" class="svg-icon"></path></g></svg>
             </button>
             <img class="profile-picture" src="images/photo/channels4_profile.jpg">
         </div>
     </div>
     <div class="p1">
-        <div>
+        <div class="content">
             <img src="images/imager/ytm_lp2_logo_desktop_552x71.png">
-            <p>Get Music Premium to listen to music ad-free, offline & with your screen off</p>
-            <button>Get music premium</button>
-            <p>Prepaid and subscription plans available. Prices start at ₹99.00/month. Free trials available with subscription plans only.</p>
-            <p>Or save money with an </p>
-            <p>annual, family or student plan</p>
-            <p>Restrictions apply. Learn more here.</p>
+            <p class="get-music">Get Music Premium to listen to music ad-free, offline & with your screen off</p>
+            <button class="premium-button">Get music premium</button>
+            <div class="pricecontainer">
+                <p class="prepaclass-and-subscription">Prepaid and subscription plans available. Prices start at 
+                    <div>
+                        <p id="price">₹99.00/month. </p>
+                        <p id="trial">Free trials available with subscription plans only.</p>
+                    </div>
+
+            </div>
+           <div>
+               <p class="offer">Or save money with an </p>
+                <p class="special-plan">annual, family or student plan</p>         
+           </div>
+
+            <p class="restriction">Restrictions apply. Learn more here.</p>
         </div>
     </div>
+    <div class="feature">
+        <div class="feature-container">
+            <img class="feature-icon" src="images/imager/ytm_lp2_icon_feature_headset_168x168.png" alt="">
+            <p class="feature-title">Listen in the background</p>
+            <p class="feature-desc">Don’t worry about your music stopping when you lock your screen or use onther apps.</p>
+        </div>
+        <div  class="feature-container">
+            <img class="feature-icon" src="images/imager/ytm_lp2_icon_feature_play_168x168.png" alt="">
+            <p class="feature-title">Ad-free music</p>
+            <p class="feature-desc">Listen to the world of music without ads.</p>
+        </div>
+        <div  class="feature-container">
+            <img class="feature-icon" src="images/imager/ytm_lp2_icon_feature_download_168x168.png" alt="">
+            <p class="feature-title">Download and go</p>
+            <p class="feature-desc">Listen to your favorite music on the go</p>
+        </div>
+    </div>
+
+    <div class="music-img-container">
+        <img class="landscape-img" src="images/imager/ytr_lp2_266999_story1_desktop_2880x1620.jpg" alt="">
+        <div class="text-container">
+            <p class="text">Background play</p>
+            <p>Turn off the screen, use other apps, all while your music keeps playing.</p>
+        </div>
+    </div>
+
+    <div class="music-img-container">
+        <img class="landscape-img" src="images/imager/ytr_lp2_266999_story2_desktop_2880x1620.jpg" alt="">
+        <div class="text-container">
+            <p class="text">No ads or interruptions on music</p>
+            <p>Easily explore the world of music without any interruptions.</p>
+        </div>
+    </div>
+
+    <div class="music-img-container">
+        <img class="landscape-img" src="images/imager/ytr_lp2_266999_story3_desktop_2880x1620.jpg" alt="">
+        <div class="text-container">
+            <p class="text">Download your favorite tracks</p>
+            <p>No connection? No problem. Take your songs, albums and playlists offline.</p>
+        </div>
+    </div>
+
     <div>
         <div>
-            <img src="" alt="">
-            <p></p>
-            <p></p>
-        </div>
-        <div>
-            <img src="" alt="">
-            <p></p>
-            <p></p>
-        </div>
-        <div>
-            <img src="" alt="">
-            <p></p>
-            <p></p>
-        </div>
-    </div>
-
-    <div class="music-img-container">
-        <div class="text-container">
-            <p class="text"></p>
-            <p></p>
-        </div>
-    </div>
-
-    <div class="music-img-container">
-        <div class="text-container">
-            <p class="text"></p>
-            <p></p>
-        </div>
-    </div>
-
-    <div class="music-img-container">
-        <div class="text-container">
-            <p class="text"></p>
-            <p></p>
-        </div>
-    </div>
-
-    <div>
-        <div>
-            <p></p>
-            <p></p>
+            <p>Have other questions? Visit the </p>
+            <p>YouTube Help Center</p>
         </div>
     </div>
 </div>

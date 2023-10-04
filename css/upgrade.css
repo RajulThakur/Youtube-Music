@@ -1,0 +1,96 @@
+.p1{
+    flex: 1;
+    margin-top: 66px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(40, 40, 40);
+    padding: 96px 0px 48px 0;
+    margin-bottom: 24px;
+}
+.content{
+    display: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+    flex-direction: column;
+}
+.content p{
+    font-weight: 300;
+}
+.get-music{
+    font-size: 32px;
+    margin: 48px 0px;
+    text-align: center;
+    width: 552px;
+}
+.pricecontainer{
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    flex-direction: inherit;
+}
+.pricecontainer p{
+    font-size: 24px;
+}
+#price,#trial{
+    display: inline-block;
+}
+.premium-button{
+    width: 155px;
+    height: 36px;
+    background-color: #3EA6FF;
+    border: none;
+    border-radius: 18px;
+    margin-bottom: 20px;
+    color: black;
+    font-weight: 500;
+    font-size: 14px;
+}
+.offer,.special-plan{
+    margin-top: 20px;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 14px;
+}
+.special-plan,.restriction{
+    color: #3EA6FF;
+    font-size: 14px;
+}
+.restriction{
+    margin-top: 20px;
+}
+.feature{
+    display: flex;
+    justify-content: space-evenly;
+}
+.feature-icon{
+    height: 84px;
+}
+.feature-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 312px;
+}
+.feature-title{
+    font-size: 32px;
+    padding-bottom: 4px;
+    text-align: center;
+}
+.feature-desc{
+    color: #aaaa;
+    font-size: 16px;
+    text-align: center;
+}
+.music-img-container{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    object-fit:contain;
+    margin-bottom: 30px;
+}
+ .music-img-container img{ /* this is f amazing make img responsive */
+    max-width: 100%;
+    height: auto;
+    z-index: 0;
+}
