@@ -1,3 +1,6 @@
+body{
+    padding-bottom: 112px;
+}
 .p1{
     flex: 1;
     margin-top: 66px;
@@ -14,7 +17,7 @@
     justify-content: inherit;
     flex-direction: column;
 }
-.content p{
+p{
     font-weight: 300;
 }
 .get-music{
@@ -83,14 +86,58 @@
     text-align: center;
 }
 .music-img-container{
+    position: relative;
     display: flex;
-    flex: 1;
-    justify-content: center;
+    align-items: center;
     object-fit:contain;
+    justify-content: center;
     margin-bottom: 30px;
 }
  .music-img-container img{ /* this is f amazing make img responsive */
     max-width: 100%;
     height: auto;
-    z-index: 0;
+}
+.feature-name{
+    font-size: 48px;
+    opacity: 0.87;
+    width: 500px;
+}
+.feature-use{
+    margin-top: 24px;
+    font-size: 20px;
+    color: rgb(141, 141, 141);
+    width: 500px;
+}
+.text-container{
+    width: 1000px;
+    position: absolute;
+}
+.feature-container-1,.feature-container-3{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.feature-container-2{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+
+}
+.bottom{
+    padding: 48px 0px;
+    margin: 0 4px 24px 0;
+    display: flex;
+    justify-content: center;
+}
+.help{
+    width: 50%;
+}
+.help p{
+    font-weight: 400;
+    font-size:18px;
+    display: inline-block;
+}
+#youtube-help-center{
+    color: #3EA6FF;
+    cursor: pointer;
 }
