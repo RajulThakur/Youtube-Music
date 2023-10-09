@@ -8,7 +8,10 @@
     align-items: center;
     justify-content: flex-start;
     flex: 1;
-    overflow-x: hidden;
+    overflow-x: scroll;
+}
+.mood-button-bar::-webkit-scrollbar{
+    display: none;
 }
 .mood-button{
     background-color: rgba(153, 153, 153, 0.489);
@@ -19,8 +22,7 @@
     color: white;
     font-weight: 300;
     padding: 9px 12px;
-    border-radius: 8px;
-
+    border-radius: 8px;    
 }
 .heading{
     display: flex;
@@ -85,8 +87,9 @@
     display: none;
 }
 .song-container{
-    height: 100%;
+    width: 100%;
     margin-right: 24px;
+    object-fit: contain;
 }
 .song-container p{
     line-height: 23px;
@@ -118,7 +121,7 @@
     opacity: 1;
 }
 .song-thumbnail{
-    height: 152px;
+    width: 100%;
     border-radius: 3px;
 } 
 .hover-button{
