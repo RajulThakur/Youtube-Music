@@ -116,12 +116,17 @@
 .song-thumbnail-container{
     position: relative;
     transition: opacity 200ms;
+    width: 100%;
+    aspect-ratio: 1/1;
+    overflow: hidden;
 }
 .song-thumbnail-container:hover button{
     opacity: 1;
 }
 .song-thumbnail{
     width: 100%;
+    height: 100%;
+    object-fit: cover;
     border-radius: 3px;
 } 
 .hover-button{
@@ -153,4 +158,29 @@
 .hover-play-button:hover{
     background-color: black;
     scale: 1.3;
+}
+.grid-thumbnail{
+    display: flex;
+    align-items: center;
+    height: 55px;
+    width: 55px;
+    object-fit: cover;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.grid-image-thumbnail{
+    width: 100%;
+    border-radius: 4%;
+}
+.music-img-container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    object-fit:contain;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+ .music-img-container img{
+    max-width: 100%;
+    height: auto;
 }
